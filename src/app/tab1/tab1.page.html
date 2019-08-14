@@ -20,7 +20,8 @@
           <ion-input name="amount" ngModel></ion-input>
         </ion-item>
       </form>
-      <ion-button expand="block" (click)="getData(amtFrm)">Continue</ion-button>
+      <!-- <ion-button expand="block" (click)="getData(amtFrm)">Continue</ion-button> -->
+      <ion-button expand="block" (click)="payWithPaypal(amtFrm)">Continue</ion-button>
     </ion-card-content>
   </ion-card>
   <ion-list lines="none" *ngIf="false">

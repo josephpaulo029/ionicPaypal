@@ -12,6 +12,7 @@ import { HttpClient } from 'selenium-webdriver/http';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx'
+import { PayPal } from '@ionic-native/paypal/ngx'
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx'
     StatusBar,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    PayPal,
     InAppBrowser
   ],
   bootstrap: [AppComponent]
